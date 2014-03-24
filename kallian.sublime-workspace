@@ -23,7 +23,23 @@
 			"file": "standby/templates/standby/index.html",
 			"settings":
 			{
-				"buffer_size": 1112,
+				"buffer_size": 1535,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Leandro/.gitconfig",
+			"settings":
+			{
+				"buffer_size": 129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Leandro/Documents/dev/inventario-bacteriano/.gitignore",
+			"settings":
+			{
+				"buffer_size": 75,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,15 +55,23 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 357.0,
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 416.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -60,6 +84,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Leandro/Documents/dev/kallian/.gitignore",
 		"/E/Filmes/Intocáveis/Intouchables [2011] BRRip XviD - CODY.srt",
 		"/C/Users/Leandro/Documents/dev/kallian/kallian/wsgi.py",
 		"/C/Users/Leandro/.bash_history",
@@ -80,7 +105,6 @@
 		"/C/Users/Leandro/Documents/dev/kallian/Procfile",
 		"/C/Users/Leandro/Documents/dev/kallian/bootstrap.sh",
 		"/C/Users/Leandro/Documents/dev/teste/teste/settings.py",
-		"/C/Users/Leandro/Documents/dev/kallian/.gitignore",
 		"/C/Users/Leandro/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Leandro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Leandro/Documents/dev/music-tube/requirements.txt",
@@ -130,23 +154,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "standby/templates/standby/index.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1112,
+						"buffer_size": 1535,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1030,
-								1030
+								587,
+								590
 							]
 						],
 						"settings":
@@ -248,11 +273,69 @@
 						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "/C/Users/Leandro/.gitconfig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Leandro/Documents/dev/inventario-bacteriano/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 75,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "store/models.py",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 57,
@@ -363,6 +446,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -399,6 +483,11 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "kallian.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -417,13 +506,31 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\Users\\Leandro\\Desktop\\inventario-bacteriano.sublime-project"
+			]
 		],
 		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
